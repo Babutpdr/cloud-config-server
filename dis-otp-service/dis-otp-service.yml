@@ -7,3 +7,9 @@ management:
       exposure:
         include: "info,health,refresh"
 
+backbase:
+  api:
+    override-5xx-error-messages: false
+  security:
+    public:
+      paths: /**
