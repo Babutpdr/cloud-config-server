@@ -1,4 +1,4 @@
-env-type: dev
+env-type: default
 # Spring health monitoring
 management:
   endpoints:
