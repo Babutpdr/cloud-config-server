@@ -1,1 +1,9 @@
 env-type: dev
+# Spring health monitoring
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: "info,health,refresh"
+
